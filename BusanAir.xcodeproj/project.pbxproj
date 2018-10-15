@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C6ECC872174619E008065B6 /* AirData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6ECC862174619E008065B6 /* AirData.swift */; };
 		7CCABEF721745DBC00F92226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCABEF621745DBC00F92226 /* AppDelegate.swift */; };
 		7CCABEF921745DBC00F92226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCABEF821745DBC00F92226 /* ViewController.swift */; };
 		7CCABEFC21745DBC00F92226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCABEFA21745DBC00F92226 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C6ECC862174619E008065B6 /* AirData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirData.swift; sourceTree = "<group>"; };
 		7CCABEF321745DBC00F92226 /* BusanAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusanAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCABEF621745DBC00F92226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CCABEF821745DBC00F92226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				7CCABEF621745DBC00F92226 /* AppDelegate.swift */,
 				7CCABEF821745DBC00F92226 /* ViewController.swift */,
 				7CCABEFA21745DBC00F92226 /* Main.storyboard */,
+				7C6ECC862174619E008065B6 /* AirData.swift */,
 				7CCABEFD21745DBD00F92226 /* Assets.xcassets */,
 				7CCABEFF21745DBD00F92226 /* LaunchScreen.storyboard */,
 				7CCABF0221745DBD00F92226 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				7CCABEF921745DBC00F92226 /* ViewController.swift in Sources */,
 				7CCABEF721745DBC00F92226 /* AppDelegate.swift in Sources */,
+				7C6ECC872174619E008065B6 /* AirData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
