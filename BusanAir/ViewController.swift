@@ -48,8 +48,8 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDelegate, 
                         switch items[i].dPm10Cai {
                         case "1" : items[i].dPm10Cai = "좋음"
                         case "2" : items[i].dPm10Cai = "보통"
-                        case "3" : items[i].dPm10Cai = "좋음"
-                        case "4" : items[i].dPm10Cai = "매우좋음"
+                        case "3" : items[i].dPm10Cai = "나쁨"
+                        case "4" : items[i].dPm10Cai = "매우나쁨"
                         default : break
                         }
                         for i in 0..<items.count{
