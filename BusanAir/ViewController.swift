@@ -14,10 +14,8 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDelegate, 
     var items = [AirData]()
     var item = AirData()
     var myPm10 = ""
-    var myPm25 = ""
     var mySite = ""
     var myPm10Cai = ""
-    var myPm25Cai = ""
     var currentElement = ""
     var currentTime = ""
     
@@ -32,9 +30,9 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDelegate, 
     }
     
     @objc func myParse() {
-        let skey = "wfNLEMEWY2HXXpx%2F2lvyAbIzGTzle8wzryRev8T%2BI9XfMG%2B7HflQ%2B4nhEhE%2Flbc6LvLREJotOzrTLx%2F%2Btg58KA%3D%3D"
+        let skey = "cLHR7K%2BU8sG3j6B0ULITYNuZPyKB1PYG2USwW3dYmJ5bzi%2FCc3CTAPzYOlnenW%2BUBUlbjpFtnF%2F6JIiRe3Ygmw%3D%3D"
         
-        let strURL = "http://opendata.busan.go.kr/openapi/service/AirQualityInfoService/getAirQualityInfoClassifiedByStation?ServiceKey=\(skey)&Date_hour=2018091520&numOfRows=21"
+        let strURL = "http://opendata.busan.go.kr/openapi/service/IndoorAirQuality/getIndoorAirQualityByStation?ServiceKey=\(skey)&date_hour=2011082309"
         
         if URL(string: strURL) != nil {
             
